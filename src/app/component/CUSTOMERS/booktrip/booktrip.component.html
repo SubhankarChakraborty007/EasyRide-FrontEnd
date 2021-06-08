@@ -1,0 +1,153 @@
+<!-- <p>booktrip works!</p> -->
+
+<body>
+
+    <div class="container" id="outer" >
+        <br><br><br><br><br>
+        <h3>Book your Trip</h3>
+        <br>
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+            <div class="cont">
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <div class="form-group">
+                            <label for="froml" id="froml">Pick Up Location</label>
+                            <div class="input-group">
+                                <input id="froml" name="froml" class="form-control" placeholder="Enter your pickup Location"
+                                    ngModel>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tolocation" id="tolocation">Drop Down Location</label>
+                            <div class="input-group">
+                                <input id="tolocation" name="tolocation" class="form-control"
+                                    placeholder="Enter your dropdown Location" ngModel>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>Please select car type:</p>
+                            <input type="radio" id="hatchback" name="carType" value="1" ngModel>
+                            <label for="hatchback">&nbsp;Hatchback</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" id="sedan" name="carType" value="2" ngModel>
+                            <label for="Sedan">&nbsp;Sedan</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" id="SUV" name="carType" value="3" ngModel>
+                            <label for="suv">&nbsp;SUV</label>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="text-center">
+                        <button id="submitButton" class="btn btn-info">BookRide</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="id01" class="modal" style="display: block;">
+        <form #tripform = "ngForm" (ngSubmit) = "tripform.valid && bookride(tripform)" class="modal-content animate" style="width:80%">
+            <div class="container1">
+                <h1>Book Your Ride</h1> -->
+
+    <!--From Location -->
+
+    <!-- <div>
+                    <label> from location </label>
+                    <input type="text" name = "fromLocation" ngModel #fromlocationControl=ngModel required class="form-control" placeholder="enter pickup location">
+                </div> -->
+
+
+    <!-- To Location -->
+    <!-- 
+                <div>
+                    <label> to Location </label>
+                    <input type="text" name = "tolocation" ngModel #tolocationControl=ngModel required  class="form-control"  placeholder="enter dropdown location">
+                </div> -->
+
+
+    <!-- Distance in Kms -->
+
+    <!-- <div>
+                    <label>Distance in Km: </label>
+                    <input type="text" name = "distanceInKm" ngModel #distanceInKmControl=ngModel required   class="form-control"  placeholder="enter km you will travel">
+                </div> -->
+
+
+
+    <!-- Car Type
+                 <div>
+                    <p>Please select car type:</p>
+                    <input type="radio" id="hatchback" name="carId" value="1" ngModel>
+                    <label for="hatchback">&nbsp;Hatchback</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="sedan" name="carId" value="2" ngModel>
+                    <label for="Sedan">&nbsp;Sedan</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="SUV" name="carId" value="3" ngModel>
+                    <label for="suv">&nbsp;SUV</label>
+                </div> -->
+
+
+
+    <!-- </div>
+    
+            <div class="container1" style="background-color:#f1f1f1">
+                <input type="submit" value="Submit Details" class="form-control btn btn-success">
+            </div>
+    
+        </form>
+    </div> -->
+</body>

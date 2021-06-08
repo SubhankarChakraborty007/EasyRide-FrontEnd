@@ -1,0 +1,91 @@
+<head>
+  <meta charset="utf-8" />
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="d-flex" id="wrapper">
+  <!-- Sidebar-->
+  <div class="border-end bg-white" id="sidebar-wrapper">
+      <div class="sidebar-heading border-bottom bg-light">Easy Ride</div>
+      <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/viewAllAdmin">View All Admin</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/insertAdmin">Insert Admin</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/updateAdmin">Update My Profile</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/getTripsById">View Trips By Customer Id</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/getTripsCabwise">View Trips Cabwise</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/getTripsDateWise">View Trips Datewise</a>
+          <a class="list-group-item list-group-item-action list-group-item-light p-3" routerLink="/getTripsCustomerWise">View Trips Customerwise</a>
+      </div>
+  </div>
+  
+  <!-- Page content wrapper-->
+  <div id="page-content-wrapper">
+      <!-- Top navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+          <div class="container-fluid">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                      <li class="nav-item active"><a class="nav-link" routerLink="/adminLogout">Log Out</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </nav>
+     
+
+      <!-- Page content-->
+      <div class="container-fluid">
+        <b>hello {{name}}</b>
+
+        <h1 class="mt-4">Admin Dashboard</h1>
+          <br><br><br> 
+
+          <div class="container">
+            <div class="row">
+            
+
+              
+            <div class="col-md-3">
+              <div class="card-counter primary">
+                <i class="fa fa-user"></i>
+                <span class="count-numbers">15</span>
+                <span class="count-name">Admins</span>
+              </div>
+            </div>
+        
+            <div class="col-md-3">
+              <div class="card-counter success">
+                <i class="fa fa-database"></i>
+                <span class="count-numbers">675</span>
+                <span class="count-name">Customers</span>
+              </div>
+            </div>
+        
+            <div class="col-md-3">
+              <div class="card-counter info">
+                <i class="fa fa-id-card" aria-hidden="true"></i>
+                <span class="count-numbers">350</span>
+                <span class="count-name">Professional Drivers</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card-counter danger">
+                <i class="fa fa-taxi" aria-hidden="true"></i>
+                <span class="count-numbers">1260</span>
+                <span class="count-name">Successful Trips</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+  </div>
+</div>

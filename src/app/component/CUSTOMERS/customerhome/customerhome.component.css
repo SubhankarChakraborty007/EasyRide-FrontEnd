@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); */
+
+
+
+/* Background image */
+
+.bg-covers {
+    background-image: url('https://cms-web.olacabs.com/00000000383.jpg');
+}
+
+.jumbotron {
+    text-align: left;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 0px 0px #000;
+    font-weight: bold;
+    background-color: #0f8d39;
+  }
+  
+  .lead span {
+    color: rgba(255, 166, 0, 0.993);
+    /* font-weight: bold; */
+  }
+  
+  .bg-covers {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }

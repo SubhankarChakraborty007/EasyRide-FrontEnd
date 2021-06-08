@@ -1,0 +1,43 @@
+<div id="id01" class="modal" style="display: block;">
+    <form #adminform = "ngForm" (ngSubmit) = "adminform.valid && addAdmin(adminform)" class="modal-content animate" style="width:80%">
+        <div class="container1">
+            <h1>Admin Register Page</h1>
+
+            <div>
+                <label>Username: </label>
+                <input id="username" name = "username" ngModel #usernameControl=ngModel required minlength="3" class="form-control">
+                
+            </div>
+            <div *ngIf = "usernameControl.errors!=null && usernameControl.errors.required" class="error" style="color: red;">
+                Username is required
+            </div>
+            <div *ngIf = "usernameControl.errors!=null && usernameControl.errors.minlength" class="error" style="color: red;">
+                Minimum length is 6
+            </div>
+        
+            <div>
+                <label>Password: </label>
+                <input id="password" name = "password" ngModel #passwordControl=ngModel required class="form-control" type="password">
+            </div>
+            <div *ngIf = "passwordControl.errors!=null && passwordControl.errors.required" class="error" style="color: red;">
+                Password is required
+            </div>
+        
+            <div>
+                <label>Mobile number: </label>
+                <input id="mobileNumber" name = "mobileNumber" ngModel class="form-control">
+            </div>
+        
+            <div>
+                <label>Email: </label>
+                <input id="email" name = "email" ngModel class="form-control" type="email">
+            </div>
+    
+        </div>
+
+        <div class="container1" style="background-color:#f1f1f1">
+            <input type="submit" value="Submit Details" class="form-control btn btn-success">
+        </div>
+
+    </form>
+</div>

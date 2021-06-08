@@ -1,0 +1,380 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"> EasyRide 
+      <!-- <img src="http://placehold.it/150x50?text=Logo" alt=""> -->  </a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home"><span class="fas fa-home"></span>&nbsp; Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+
+    <li class="dropdown ">
+      <li ngbDropdown class="nav-item dropdown">
+        <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="dropdown01"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+        class="fas fa-sign-in-alt"></span>&nbsp; LogIn</a>
+        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+          <a ngbDropdownItem class="dropdown-item" routerLink="/logincustomer"> Customer Login</a>
+          <a ngbDropdownItem class="dropdown-item" routerLink="/loginAdmin"> Admin Login</a>
+          <a ngbDropdownItem class="dropdown-item" routerLink="/logindriver"> Driver Login</a>
+          </div>
+        </li> 
+      <!-- </li> -->
+
+      <li class="dropdown ">
+        <li ngbDropdown class="nav-item dropdown">
+        <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="dropdown02"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="fas fa-user-plus"></span>&nbsp; SignUp</a>
+
+        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown02">
+          <a ngbDropdownItem class="dropdown-item" routerLink="/customersignup" style="text-decoration-color: gray;"> Customer SignUp</a>
+          <a ngbDropdownItem class="dropdown-item" routerLink="/driversignup"> Driver SignUp</a>
+        </div>
+
+      </li>
+      <!-- </li> -->
+    </ul>
+  </div>
+
+
+  </div>
+</nav>  
+
+
+
+<!-- jumbotron -->
+
+<div class="jumbotron jumbotron bg-cover">
+    <div class="overlay"></div> 
+   <div class="container">
+     <h1 class="display-4 md-2">WE TAKE PRIDE<br>IN YOUR RIDE</h1>
+     <p class="lead"> <span>The best way to travel to your destination</span></p>
+
+     <!-- <div class="form-group">
+       <button type="submit" class="btn btn-success btn-sm " >BookRide</button>
+   </div> -->
+   </div>
+ </div>
+
+<div class="container">
+  <h4><b>Why ride with<br> EasyRide?</b></h4>
+</div>
+<br>
+<br>
+<!-- after jumbotron -->
+
+<div class="container">
+
+<!-- 1st row -->
+
+   <div class="row">
+
+       <div class="col-sm-4">
+           <div class="card" style="width: 18rem;">
+               <img class="card-img-top" src="https://cms-web.olacabs.com/00000000368.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h4 class="card-title">Cabs for Every Pocket</h4>
+                 <p class="card-text">From Sedans and SUVs to Luxury<br> cars for special occasions, <br>we have cabs to suit every pocket. <br><br><br><br>
+               </p>
+                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+               </div>
+             </div>
+
+
+       </div>
+       <div class="col-sm-4">
+           <div class="card" style="width: 18rem;">
+               <img class="card-img-top" src="https://cms-web.olacabs.com/00000000370.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h4 class="card-title">Secure and Safer Rides</h4>
+                 <p class="card-text">Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in place to ensure you a safe travel experience.
+
+               </p>
+                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+               </div>
+             </div>
+
+   </div>
+
+   <div class="col-sm-4">
+       <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://cms-web.olacabs.com/00000000382.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h4 class="card-title">Share and Express</h4>
+             <p class="card-text">To travel with the lowest fares choose Easy Share. For a faster travel experience we have Share Express on some fixed routes with zero deviations. Choose your ride and zoom away!
+
+           </p>
+             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+           </div>
+         </div>
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<!-- 2nd row -->
+
+<div class="row">
+
+   <div class="col-sm-4">
+       <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://cms-web.olacabs.com/00000000372.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h4 class="card-title">Cashless Rides</h4>
+             <p class="card-text">Now go cashless and travel easy. Simply recharge your Easy money or add your credit/debit card to enjoy hassle free payments. <br><br>
+
+           </p>
+             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+           </div>
+         </div>
+
+
+   </div>
+   <div class="col-sm-4">
+       <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="https://cms-web.olacabs.com/00000000371.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h4 class="card-title">In Cab Entertainment</h4>
+             <p class="card-text">Play music, watch videos and a lot more with Easy Play! Also stay connected even if you are travelling through poor network areas with our free wifi facility.
+
+           </p>
+             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+           </div>
+         </div>
+
+</div>
+
+<div class="col-sm-4">
+   <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="https://cms-web.olacabs.com/00000000374.jpg" alt="Card image cap">
+       <div class="card-body">
+         <h4 class="card-title">Easy Select</h4>
+         <p class="card-text">A membership program with EasyRide that lets you ride a Prime Sedan at Mini fares, book cabs<br> without peak pricing and has zero wait time</p>
+         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+       </div>
+     </div>
+
+</div>
+</div>
+</div>  
+
+
+<br>
+<br>
+
+<br><br>
+<!-- carousel -->
+<div class="container">
+ <h3 style="text-align:center">Meet Our Awesome Fleet</h3>
+ 
+ <br>
+
+ <ngb-carousel >
+   <ng-template ngbSlide>
+     <div class="picsum-img-wrapper">
+       <img src="https://www.acko.com/wp-content/uploads/2020/02/hatchback.jpg" alt="Random second slide" class="center" width="1000" height="450">
+     </div>
+     <div class="carousel-caption">
+       <h3>Hatchback</h3>
+       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+     </div>  
+   </ng-template>
+
+   <ng-template ngbSlide>
+     <div class="picsum-img-wrapper">
+     </div>
+       <img src="https://www.acko.com/wp-content/uploads/2020/02/sedan.jpg" alt="Random first slide" class="center" width="1000" height="450">
+     <div class="carousel-caption">
+       <h3>Sedan</h3>
+       <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+     </div>
+   </ng-template>
+
+
+
+   <ng-template ngbSlide>
+     <div class="picsum-img-wrapper">
+       <img src="https://www.acko.com/wp-content/uploads/2020/02/suv.jpg" alt="Random third slide" class="center" width="1000" height="450">
+     </div>
+     <div class="carousel-caption">
+       <h3>SUV</h3>
+       <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+     </div>
+   </ng-template>
+ </ngb-carousel>
+</div>
+<!-- carousel  ends-->
+
+
+
+<br><br>
+
+<!-- before testimonial -->
+<div>
+<div class="row" style="background-color: rgb(150, 194, 179);">
+
+ <div class="col-sm-4">
+     <div class="card" style="width: 18rem;">
+         <!-- <img class="card-img-top" src="https://www.olacabs.com/webstatic/img/ola-support.svg" alt="Card image cap"  width="500" height="300"> -->
+         <!-- <i class="bi bi-bookmark-star-fill"></i> -->
+
+         <div class="card-body" style="background-color: rgb(150, 194, 179);">
+           <h4 class="card-title">24/7 Customer Support</h4>
+
+           <p class="card-text">A dedicated 24x7 customer
+             support team always at your
+             service to help solve any problem 
+             <br>
+             
+         </p>
+           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+         </div>
+       </div>
+
+
+ </div>
+
+ <div class="col-sm-4">
+   <div class="card" style="width: 18rem;">
+       <!-- <img class="card-img-top" src="https://www.olacabs.com/webstatic/img/send_out_succour.svg" alt="Card image cap"> -->
+       <div class="card-body" style="background-color: rgb(150, 194, 179);">
+         <h4 class="card-title">Your Safety <br>First</h4>
+
+         <p class="card-text">Keep your loved ones informed
+about your travel routes or call
+emergency services when in need <br>
+       </p>
+         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+       </div>
+     </div>
+
+
+</div>
+
+
+<div class="col-sm-4">
+ <div class="card" style="width: 18rem;">
+     <!-- <img class="card-img-top" src="https://www.olacabs.com/webstatic/img/ola-best-driver.svg" alt="Card image cap"> -->
+     <div class="card-body"style="background-color: rgb(150, 194, 179);">
+     <!-- <span> <i class="fas fa-star" style="text-align: center;"></i></span> -->
+       <h4 class="card-title">Top Rated <br>Driver-Partners</h4>
+       <p class="card-text">All our driver-partners are
+         background verified and trained to
+         deliver only the best experience 
+         <br>
+     </p>
+       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+     </div>
+   </div>
+
+
+</div>
+</div>
+
+</div>
+
+
+
+<!-- before footer complete -->
+
+
+
+<!-- testimonial -->
+
+
+
+
+<br><br>
+<div class="container">
+
+ <div class="row">
+
+   <div class="col-sm-4 mx-auto">     
+   </div>
+
+ </div>
+
+
+
+</div>
+
+
+<div class="jumbotron">
+
+<div class="container">
+
+ <h2 style=color:#e5ddcc>What our customer says!</h2>
+ <br>
+ <hr>
+ <h4 style="color: hsl(0, 6%, 65%);"> Mike Anderson</h4>
+ <p class="lead"> <span style="color: aliceblue;">I might want to share my stunning background and wish you for your ideal transport 
+   administration. As of late, I was in Kolkata where I used your administration. I was appreciative to get
+    an exceptionally warm, well disposed and proficient administration from EasyRide drivers 
+    amid my 3 days in Kolkata.</span></p>
+
+    <br><br>
+ <h4 style="color: hsl(0, 6%, 65%);"> Barun Chakraborty</h4>
+ <p class="lead"> <span style="color: aliceblue;">Much obliged for the stunning administration you gave as of late. The vehicles appeared to be extraordinary! EasyRide drivers were in all respects benevolent, very agreeable and well qualify proficient. I will advocate your organization to my companions later on...</span></p>
+
+
+</div>
+
+</div>
+
+<!-- footer -->
+
+<div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
+ <footer>
+     <div class="row my-5 justify-content-center py-5">
+         <div class="col-11">
+             <div class="row ">
+                 <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                     <h2 class="text-muted mb-md-0 mb-5 bold-text">EasyRide.</h2>
+                 </div>
+                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                     <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                     <ul class="list-unstyled">
+                         <li>Home</li>
+                         <li>About</li>
+                         <li>Blog</li>
+                         <li>Portfolio</li>
+                     </ul>
+                 </div>
+                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                     <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                     <p class="mb-1">605, RATAN ICON BUILDING</p>
+                     <p>SEAWOODS SECTOR</p>
+                 </div>
+             </div>
+             <div class="row ">
+                 <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                     <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> EasyRide All Rights Reserved.</small>
+                     <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Subhankar Chakraborty.</small>
+
+                 </div>
+                 <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                     <h6 class="mt-55 mt-2 text-muted bold-text"><b>PARTH<br>KOTHARI</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> parthkothari11@gmail.com</small>
+                 </div>
+                 <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                     <h6 class="text-muted bold-text"><b>SUBHANKAR<br>CHAKRABOTRY</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> subhankarchakraborty720@gmail.com</small>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </footer>
+</div>

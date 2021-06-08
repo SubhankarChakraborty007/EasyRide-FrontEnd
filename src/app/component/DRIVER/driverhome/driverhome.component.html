@@ -1,0 +1,105 @@
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<!-- Navigation -->
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<div class="container">
+  <a class="navbar-brand" href="#"> EasyRide  </a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="driverProfile">View Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="viewBestDriver">Best Drivers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="">LogOut</a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</nav>   -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"> EasyRide 
+      <!-- <img src="http://placehold.it/150x50?text=Logo" alt=""> -->  </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/driverhome"><span class="fas fa-home"></span>&nbsp; MyHome
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/driverProfile">View Detalis</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/editProfile">Edit Details</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/viewBestDrivers">Best Drivers</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Log Out</a>
+          </li>
+        </ul>
+  </div>
+
+  </div>
+</nav>
+
+
+
+
+
+
+<!-- 
+<h4 style="text-align: center;">Hello {{driver.username}} Welcome Back !!</h4>
+<br> -->
+
+<!-- jumbotron -->
+
+<h4 style="text-align: center;">Hello {{driver.username }} Welcome Back!!</h4>
+
+<div class="jumbotron jumbotron bg-coverss">
+  <div class="overlay"></div> 
+ <div class="container">
+   <br>
+   <h3 class="display-4 md-2">Partner with EasyRide<br> by attaching your car.
+  </h3><br>
+   <p class="lead"> <span><i class="far fa-clock"></i> &nbsp; Flexible Working Hours</span> </p>
+   <p class="lead"> <span><i class="far fa-money-bill-alt"></i>   &nbsp;Earn good money with<br> high rate per km</span> </p>
+   <p class="lead"> <span><i class="fas fa-wallet"></i>  &nbsp; Same day payments</span> </p>
+   <!-- <div class="form-group">
+     <button type="submit" class="btn btn-success btn-sm " >BookRide</button>
+ </div> -->
+ </div>
+</div>
